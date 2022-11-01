@@ -1,0 +1,7 @@
+{
+	UIAppFonts = (
+		"SFProText-Regular.ttf",
+	);
+	"PHPhotoLibraryPreventAutomaticLimitedAccessAlert" = YES;
+	"NSPhotoLibraryUsageDescription" = "Swift Senpai Demo";
+}

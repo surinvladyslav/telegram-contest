@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "801944EC-5C78-4571-BF9D-BD077DC2621B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FA56FA19-A9C2-44BD-B5C3-A634CC618DF5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../photosAppiOS/photosApp2/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "FA56FA19-A9C2-44BD-B5C3-A634CC618DF5 - 5821c5036796244e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TelegramContest.AppDelegate.window.getter : Swift.Optional&lt;__C.UIWindow&gt;"
+                  moduleName = "TelegramContest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/surinvladyslav/Desktop/photosAppiOS/photosApp2/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "FA56FA19-A9C2-44BD-B5C3-A634CC618DF5 - b972fc278f4ce7ba"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TelegramContest.AppDelegate.window.setter : Swift.Optional&lt;__C.UIWindow&gt;"
+                  moduleName = "TelegramContest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/surinvladyslav/Desktop/photosAppiOS/photosApp2/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "FA56FA19-A9C2-44BD-B5C3-A634CC618DF5 - 20e0067a20e3fb4b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TelegramContest.AppDelegate.window.modify : Swift.Optional&lt;__C.UIWindow&gt;"
+                  moduleName = "TelegramContest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/surinvladyslav/Desktop/photosAppiOS/photosApp2/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "FA56FA19-A9C2-44BD-B5C3-A634CC618DF5 - 164597a67a0400ef"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TelegramContest.AppDelegate.window.modify : Swift.Optional&lt;__C.UIWindow&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "TelegramContest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/surinvladyslav/Desktop/photosAppiOS/photosApp2/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "FA56FA19-A9C2-44BD-B5C3-A634CC618DF5 - 6c04e4f77948e08d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TelegramContest.AppDelegate.init() -&gt; TelegramContest.AppDelegate"
+                  moduleName = "TelegramContest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/surinvladyslav/Desktop/photosAppiOS/photosApp2/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4F587464-A77B-4A29-9A53-8BA5315C44F0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TelegramContest/Models/StackItem.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "ImageModel"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C7CDD0B3-D09E-4456-845F-CD7357753F8B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TelegramContest/Views/AllowAccessView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "C7CDD0B3-D09E-4456-845F-CD7357753F8B - 28fb1a8360344ee4"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TelegramContest.AllowAccessView.body.getter : some"
+                  moduleName = "TelegramContest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/surinvladyslav/Desktop/TelegramContest/TelegramContest/Views/AllowAccessView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "208">
+               </Location>
+               <Location
+                  uuid = "C7CDD0B3-D09E-4456-845F-CD7357753F8B - d823152c37a42b8b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in TelegramContest.AllowAccessView.body.getter : some"
+                  moduleName = "TelegramContest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/surinvladyslav/Desktop/TelegramContest/TelegramContest/Views/AllowAccessView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "280">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "08ECAEE0-D23E-49B5-9176-89AF0BBB5FAB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TelegramContest/Views/NavigationBarView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5A1E92C6-D23A-4ADF-A58A-B84BA6A93B65"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TelegramContest/Views/ShapeToolsBarView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

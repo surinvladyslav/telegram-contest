@@ -7,7 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FED9B7329033B5400F186AF /* TelegramContestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FED9B7229033B5400F186AF /* TelegramContestApp.swift */; };
+		0F1D9021290FE785005D8149 /* ShapeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1D9020290FE785005D8149 /* ShapeModel.swift */; };
+		0F1D9023290FEF15005D8149 /* ShapeToolsBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1D9022290FEF15005D8149 /* ShapeToolsBarView.swift */; };
+		0F3A7E0B290C6DFA006FF9C0 /* DrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A7E0A290C6DFA006FF9C0 /* DrawingViewController.swift */; };
+		0F3A7E0D290C6E4D006FF9C0 /* PencilKitDrawNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A7E0C290C6E4D006FF9C0 /* PencilKitDrawNavigationController.swift */; };
+		0F3A7E0F290D402F006FF9C0 /* SegmentedControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A7E0E290D402F006FF9C0 /* SegmentedControlView.swift */; };
+		0F3A7E14290D4FE4006FF9C0 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A7E13290D4FE4006FF9C0 /* AppController.swift */; };
+		0F3A7E19290D7CFA006FF9C0 /* TextModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A7E18290D7CFA006FF9C0 /* TextModel.swift */; };
+		0F3A7E1B290D7EE8006FF9C0 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A7E1A290D7EE8006FF9C0 /* CanvasView.swift */; };
+		0F4E7642290A8C89008E2F78 /* AllowAccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E7641290A8C89008E2F78 /* AllowAccessView.swift */; };
+		0F4E7644290A8CC3008E2F78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F4E7643290A8CC3008E2F78 /* Main.storyboard */; };
+		0F4E7646290A930D008E2F78 /* PickerTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E7645290A930D008E2F78 /* PickerTool.swift */; };
+		0F4E764A290A9A61008E2F78 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E7649290A9A61008E2F78 /* ViewModel.swift */; };
+		0F4E764C290AA40D008E2F78 /* DrawingScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E764B290AA40D008E2F78 /* DrawingScreenView.swift */; };
+		0F72C190290B36DF00749E59 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F72C18F290B36DF00749E59 /* LottieView.swift */; };
+		0F7CD52D290DD38D00A49F15 /* ToolsBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7CD52C290DD38D00A49F15 /* ToolsBarView.swift */; };
+		0F7CD52F290DD4C400A49F15 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7CD52E290DD4C400A49F15 /* NavigationBarView.swift */; };
+		0F7CD531290DD54100A49F15 /* ToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7CD530290DD54100A49F15 /* ToolsView.swift */; };
+		0F7CD533290DE7E100A49F15 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7CD532290DE7E100A49F15 /* TextView.swift */; };
+		0F7CD535290E982600A49F15 /* DrawToolsBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7CD534290E982600A49F15 /* DrawToolsBarView.swift */; };
+		0F7CD537290E985B00A49F15 /* TextToolsBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7CD536290E985B00A49F15 /* TextToolsBarView.swift */; };
+		0FC64116290B42680077CC57 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 0FC64115290B42680077CC57 /* Lottie */; };
+		0FC6412F290C08250077CC57 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC6412E290C08250077CC57 /* ImageModel.swift */; };
 		0FED9B7529033B5400F186AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FED9B7429033B5400F186AF /* ContentView.swift */; };
 		0FED9B7729033B5400F186AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FED9B7629033B5400F186AF /* Assets.xcassets */; };
 		0FED9B7A29033B5400F186AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FED9B7929033B5400F186AF /* Preview Assets.xcassets */; };
@@ -34,8 +55,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F1D901C290F1A6C005D8149 /* New-York.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "New-York.ttf"; sourceTree = "<group>"; };
+		0F1D901D290F3F85005D8149 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		0F1D901E290F3FAC005D8149 /* SFNSDisplay-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFNSDisplay-Regular.otf"; sourceTree = "<group>"; };
+		0F1D9020290FE785005D8149 /* ShapeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeModel.swift; sourceTree = "<group>"; };
+		0F1D9022290FEF15005D8149 /* ShapeToolsBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeToolsBarView.swift; sourceTree = "<group>"; };
+		0F3A7E0A290C6DFA006FF9C0 /* DrawingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingViewController.swift; sourceTree = "<group>"; };
+		0F3A7E0C290C6E4D006FF9C0 /* PencilKitDrawNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilKitDrawNavigationController.swift; sourceTree = "<group>"; };
+		0F3A7E0E290D402F006FF9C0 /* SegmentedControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlView.swift; sourceTree = "<group>"; };
+		0F3A7E13290D4FE4006FF9C0 /* AppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		0F3A7E18290D7CFA006FF9C0 /* TextModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModel.swift; sourceTree = "<group>"; };
+		0F3A7E1A290D7EE8006FF9C0 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		0F4E7641290A8C89008E2F78 /* AllowAccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllowAccessView.swift; sourceTree = "<group>"; };
+		0F4E7643290A8CC3008E2F78 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0F4E7645290A930D008E2F78 /* PickerTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerTool.swift; sourceTree = "<group>"; };
+		0F4E7649290A9A61008E2F78 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		0F4E764B290AA40D008E2F78 /* DrawingScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingScreenView.swift; sourceTree = "<group>"; };
+		0F72C18F290B36DF00749E59 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		0F72C195290B381900749E59 /* duck.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = duck.json; sourceTree = "<group>"; };
+		0F7CD52C290DD38D00A49F15 /* ToolsBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsBarView.swift; sourceTree = "<group>"; };
+		0F7CD52E290DD4C400A49F15 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		0F7CD530290DD54100A49F15 /* ToolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsView.swift; sourceTree = "<group>"; };
+		0F7CD532290DE7E100A49F15 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		0F7CD534290E982600A49F15 /* DrawToolsBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawToolsBarView.swift; sourceTree = "<group>"; };
+		0F7CD536290E985B00A49F15 /* TextToolsBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToolsBarView.swift; sourceTree = "<group>"; };
+		0FC6412E290C08250077CC57 /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
 		0FED9B6F29033B5400F186AF /* TelegramContest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelegramContest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FED9B7229033B5400F186AF /* TelegramContestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramContestApp.swift; sourceTree = "<group>"; };
 		0FED9B7429033B5400F186AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0FED9B7629033B5400F186AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FED9B7929033B5400F186AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -44,6 +89,7 @@
 		0FED9B8929033B5400F186AF /* TelegramContestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelegramContestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FED9B8D29033B5400F186AF /* TelegramContestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramContestUITests.swift; sourceTree = "<group>"; };
 		0FED9B8F29033B5400F186AF /* TelegramContestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramContestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0FF59F3D290C295C002F0AF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FC64116290B42680077CC57 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +118,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F1D901B290F1996005D8149 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0F1D901C290F1A6C005D8149 /* New-York.ttf */,
+				0F1D901E290F3FAC005D8149 /* SFNSDisplay-Regular.otf */,
+				0F1D901D290F3F85005D8149 /* Roboto-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		0F3A7E12290D45EE006FF9C0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0F3A7E0A290C6DFA006FF9C0 /* DrawingViewController.swift */,
+				0F3A7E0C290C6E4D006FF9C0 /* PencilKitDrawNavigationController.swift */,
+				0F3A7E13290D4FE4006FF9C0 /* AppController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0F3A7E17290D79E0006FF9C0 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				0F4E7645290A930D008E2F78 /* PickerTool.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		0F4E763E290A8BDC008E2F78 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0F4E7641290A8C89008E2F78 /* AllowAccessView.swift */,
+				0F4E764B290AA40D008E2F78 /* DrawingScreenView.swift */,
+				0F72C18F290B36DF00749E59 /* LottieView.swift */,
+				0FED9B7429033B5400F186AF /* ContentView.swift */,
+				0F3A7E0E290D402F006FF9C0 /* SegmentedControlView.swift */,
+				0F3A7E1A290D7EE8006FF9C0 /* CanvasView.swift */,
+				0F7CD52C290DD38D00A49F15 /* ToolsBarView.swift */,
+				0F7CD52E290DD4C400A49F15 /* NavigationBarView.swift */,
+				0F7CD530290DD54100A49F15 /* ToolsView.swift */,
+				0F7CD532290DE7E100A49F15 /* TextView.swift */,
+				0F7CD534290E982600A49F15 /* DrawToolsBarView.swift */,
+				0F7CD536290E985B00A49F15 /* TextToolsBarView.swift */,
+				0F1D9022290FEF15005D8149 /* ShapeToolsBarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0F72C193290B37FF00749E59 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0F72C194290B381100749E59 /* Lottie */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0F72C194290B381100749E59 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				0F72C195290B381900749E59 /* duck.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		0FC6412D290C08190077CC57 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0FC6412E290C08250077CC57 /* ImageModel.swift */,
+				0F4E7649290A9A61008E2F78 /* ViewModel.swift */,
+				0F3A7E18290D7CFA006FF9C0 /* TextModel.swift */,
+				0F1D9020290FE785005D8149 /* ShapeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		0FED9B6629033B5400F186AF = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +216,16 @@
 		0FED9B7129033B5400F186AF /* TelegramContest */ = {
 			isa = PBXGroup;
 			children = (
-				0FED9B7229033B5400F186AF /* TelegramContestApp.swift */,
-				0FED9B7429033B5400F186AF /* ContentView.swift */,
-				0FED9B7629033B5400F186AF /* Assets.xcassets */,
+				0F3A7E17290D79E0006FF9C0 /* Tools */,
+				0F3A7E12290D45EE006FF9C0 /* Controllers */,
+				0FC6412D290C08190077CC57 /* Models */,
+				0F72C193290B37FF00749E59 /* Resources */,
+				0F4E763E290A8BDC008E2F78 /* Views */,
 				0FED9B7829033B5400F186AF /* Preview Content */,
+				0FED9B7629033B5400F186AF /* Assets.xcassets */,
+				0F4E7643290A8CC3008E2F78 /* Main.storyboard */,
+				0FF59F3D290C295C002F0AF2 /* Info.plist */,
+				0F1D901B290F1996005D8149 /* Fonts */,
 			);
 			path = TelegramContest;
 			sourceTree = "<group>";
@@ -143,6 +271,9 @@
 			dependencies = (
 			);
 			name = TelegramContest;
+			packageProductDependencies = (
+				0FC64115290B42680077CC57 /* Lottie */,
+			);
 			productName = TelegramContest;
 			productReference = 0FED9B6F29033B5400F186AF /* TelegramContest.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +346,9 @@
 				Base,
 			);
 			mainGroup = 0FED9B6629033B5400F186AF;
+			packageReferences = (
+				0FC64114290B42680077CC57 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 0FED9B7029033B5400F186AF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,6 +365,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F4E7644290A8CC3008E2F78 /* Main.storyboard in Resources */,
 				0FED9B7A29033B5400F186AF /* Preview Assets.xcassets in Resources */,
 				0FED9B7729033B5400F186AF /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +392,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F7CD52F290DD4C400A49F15 /* NavigationBarView.swift in Sources */,
+				0F3A7E19290D7CFA006FF9C0 /* TextModel.swift in Sources */,
 				0FED9B7529033B5400F186AF /* ContentView.swift in Sources */,
-				0FED9B7329033B5400F186AF /* TelegramContestApp.swift in Sources */,
+				0F7CD52D290DD38D00A49F15 /* ToolsBarView.swift in Sources */,
+				0F3A7E1B290D7EE8006FF9C0 /* CanvasView.swift in Sources */,
+				0F1D9021290FE785005D8149 /* ShapeModel.swift in Sources */,
+				0F4E7646290A930D008E2F78 /* PickerTool.swift in Sources */,
+				0F4E764C290AA40D008E2F78 /* DrawingScreenView.swift in Sources */,
+				0F7CD531290DD54100A49F15 /* ToolsView.swift in Sources */,
+				0F3A7E0D290C6E4D006FF9C0 /* PencilKitDrawNavigationController.swift in Sources */,
+				0F4E764A290A9A61008E2F78 /* ViewModel.swift in Sources */,
+				0F7CD535290E982600A49F15 /* DrawToolsBarView.swift in Sources */,
+				0F3A7E0B290C6DFA006FF9C0 /* DrawingViewController.swift in Sources */,
+				0F7CD533290DE7E100A49F15 /* TextView.swift in Sources */,
+				0F7CD537290E985B00A49F15 /* TextToolsBarView.swift in Sources */,
+				0F3A7E0F290D402F006FF9C0 /* SegmentedControlView.swift in Sources */,
+				0F72C190290B36DF00749E59 /* LottieView.swift in Sources */,
+				0F4E7642290A8C89008E2F78 /* AllowAccessView.swift in Sources */,
+				0FC6412F290C08250077CC57 /* ImageModel.swift in Sources */,
+				0F3A7E14290D4FE4006FF9C0 /* AppController.swift in Sources */,
+				0F1D9023290FEF15005D8149 /* ShapeToolsBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +574,7 @@
 				DEVELOPMENT_TEAM = T2DK3A574Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TelegramContest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +604,7 @@
 				DEVELOPMENT_TEAM = T2DK3A574Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TelegramContest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -583,6 +739,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0FC64114290B42680077CC57 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0FC64115290B42680077CC57 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0FC64114290B42680077CC57 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0FED9B6729033B5400F186AF /* Project object */;
 }
